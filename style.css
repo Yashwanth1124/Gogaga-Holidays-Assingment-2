@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+
+/* Your existing styles */
+.bg-container{
+    background-image: linear-gradient(#fff,#add8e6,#fff);
+    background-size: cover;
+}
+.logo img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.items ul {
+    list-style-type: none; /* Remove default list styling */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically */
+}
+
+.items li {
+    margin-right: 20px; /* Adjust spacing between list items */
+    font-size: 18px; 
+    margin-top: 20px;/* Adjust font size */
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading{
+    font-size:12px;
+    margin-top: -16px;
+}
+.nav-head{
+    color: #1f456E;
+    font-weight: 500;
+    font-size: 18px;
+}
+.eachcolor{
+    border: 1px dotted #000; /* Border style */
+    border-radius: 7px; /* Border radius for rounded corners */
+    padding:3px; /* Padding inside the box */
+    width:auto; /* Width of the box */
+    text-align: center;
+    color: #000; /* Center align content */
+    height: 45px;
+}
+.eachcolor1{
+    border: 1px dotted #000; /* Border style */
+    border-radius: 10px; /* Border radius for rounded corners */
+    padding:3px; /* Padding inside the box */
+    width:auto; /* Width of the box */
+    text-align: center;
+    color: #000; /* Center align content */
+    height: 45px;
+    font-size: 18px;
+    color: #1f456E;
+}
+.search:hover{
+    color: #fff;
+}
+.search-con{
+    background-color: #fff;
+    text-align: center;
+    width: 20px;
+    border-radius: 5px;
+}
+.head{
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
+.eachcolor:hover{
+    background-color:#415e7e ;
+    color: #fff;
+}
+.content{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-heading{
+    color: #1f456E;
+    font-weight: 750;
+    font-size: 32px;
+}
+.search-desc{
+    color: #1f456E;
+    font-weight: 400;
+    font-size: 28px;
+}
+.white-container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#f0f0f0;
+    border-radius: 16px;
+    height: 50px;
+    width:700px;
+    padding: 10px;
+}
+
+.each{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 228, 235);
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    height: 26px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.each:hover {
+    background-color:#415e7e;/* Change background color on hover */
+    color: #fff;
+}
+.hotel-eachcolor{
+    border: 1px solid #fff; /* Border style */
+    border-radius: 10px; /* Border radius for rounded corners */
+    padding:3px; /* Padding inside the box */
+    width:200px; /* Width of the box */
+    text-align:start;
+    color: #000; /* Center align content */
+}
+.hotel-para{
+    color: #fff;
+}
+.hotel-heading{
+    color: #fff;
+    font-size: 18px;
+}
+.blue{
+    background-image: linear-gradient(#739fce,#1f456E);
+    width: 850px;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    flex-direction:column; /* Change to column layout */
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 16px;
+    height:210px;
+}
+.hotel-con {
+    /* Center horizontally */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-item{
+    margin: 20px;
+}
+.star {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align items at the start */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Take full width of the container */
+    padding-left: 20px; /* Add some left padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-left: 120px;
+}
+
+.star-con{
+    background-color: #fff;
+    height: 20px;
+    width: 30px;
+    border-radius:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-self: flex-start;
+    margin: 5px;
+    padding: 10px;
+}
+.star-head{
+    font-size:12px;
+    color: #1f456E;
+    margin: 3px;
+    margin-left: 12px;
+    text-align: center;
+}
+.star-icon{
+    font-size: 12px;
+    color: #1f456E;
+    margin: 5px;
+    margin-right: 12px;
+}
+.star-heading{
+    font-size:16px;
+    color: #fff;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.check{
+    margin-right: 667px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.label{
+    color: #fff;
+    margin-right: 380px;
+    margin-top: -19px;
+}
+
+.ver {
+    border-left: 1px solid #000; /* Vertical line style */
+    height: 60px; /* Height of the vertical line */
+    margin: 0 20px; 
+    margin-top: 12px;/* Margin to separate the vertical line from text */
+}
+
+.k {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy {
+    display: flex;
+    text-align: center;
+}
+
+.h {
+    font-size: 36px;
+    margin-top: 12px;
+    color: #1f456E;
+    font-weight:700;
+}
+
+.hp {
+    font-size:18px;
+    margin-right:34px;
+    margin-top: 12px;
+    color: #1f456E;
+    font-weight:400;
+}
+
+.p {
+    font-size: 18px;
+    margin-top: -28px;
+    margin-right: 5px;
+    color: #1f456E;
+    font-weight:400;
+}
+.ho{
+    margin-top:20px;
+    font-size: 18px;
+    color: #1f456E;
+    font-weight:400;
+}
+.hop{
+    margin-top: -26px;
+    color: #1f456E;
+    font-weight:400;
+}
+.download-container {
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+    align-items: center; /* Align items horizontally */
+}
+
+.cp {
+    margin-top: 5px;; /* Add some space between "Download now" and "Google Play" */
+}
+.ppp{
+    margin-top: -19px;
+}
+.dp{
+    margin-top: 20px;
+}
+.br{
+    text-align: center;
+}
+.f-item{
+    display: flex;
+    margin: 20px;
+}
+.f-head{
+    font-size: 16px;
+    color: #1f456E;
+}
+.f-para{
+    font-size: 12px;
+    color: #1f456E;
+    margin-top: -10px;
+}
+.f-con{
+    margin-left: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
